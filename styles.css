@@ -25,7 +25,6 @@
     padding-bottom: 30px;
 }
  
-/** На донный момент только webkit поддерживает background-clip:text; **/
 #wrapper h1{
     background:
     -webkit-repeating-linear-gradient(-45deg,
@@ -52,8 +51,7 @@
             rgba(147,184,189,0.8) 79%,
             rgba(147,184,189,0) 100%);
 }
-/**** advanced input styling ****/
-/* placeholder */
+
 ::-webkit-input-placeholder  {
     color: rgb(190, 188, 188);
     font-style: italic;
@@ -66,7 +64,6 @@ textarea:-moz-placeholder{
 input {
   outline: none;
 }
-/* все поля исключают submit и checkbox */
 #wrapper input:not([type="checkbox"]){
     width: 92%;
     margin-top: 4px;
@@ -94,7 +91,6 @@ input {
     font-style: normal;
 }
  
-/** магический трюк! **/
 [data-icon]:after {
     content: attr(data-icon);
     font-family: 'FontomasCustomRegular';
@@ -104,7 +100,6 @@ input {
     top: 35px;
     width: 30px;
 }
-/*стилизуем обе кнопки*/
 #wrapper p.button input{
     width: 30%;
     cursor: pointer;
@@ -139,7 +134,6 @@ p.signin.button{
     text-align: right;
     margin: 5px 0;
 }
-/* стилизуем чекбокс "запомнить меня"*/
 .keeplogin{
     margin-top: -5px;
 }
@@ -155,7 +149,6 @@ p.signin.button{
 .keeplogin label{
     width: 80%;
 }
-/* стилизуем чекбокс "запомнить меня"*/
 .keeplogin{
     margin-top: -5px;
 }
@@ -171,9 +164,6 @@ p.signin.button{
 .keeplogin label{
     width: 80%;
 }
-
-
-Стилизуем подвал формы, используя множественные линейные градиенты, чтобы создать полосатый градиент.
 
 p.change_link{
     position: absolute;
