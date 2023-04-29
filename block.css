@@ -9,23 +9,24 @@ body {
 
 
 #header {
-	background: #F5DEB3;
+	background: #EDC7B7;
 	width: 20%;
 	height: 50px;
 	top:0px;
 }
  
 #container {
+	background: #EDC7B7;
      margin: auto auto;
      text-align: center;
      width: 100%;
-     height: 1000px;
+     height: 680px;
 
 }
  
  
 #sidebar {	
-	background: #C0C0C0;
+	background: #EEE2DC;
 	float: left;
 	width: 20%;
 	height: 630px;
@@ -34,7 +35,7 @@ body {
 
 
 #content {
-	background: #DCDCDC;
+	background:#EEE2DC;
 	float: left;
 	width: 80%;
 	height: 680px;
@@ -45,11 +46,17 @@ body {
 }
 
 
+
+
+
+
+
+
 .button {
-	border: 2px solid #F4A460;
-      background-color: #BC8F8F;
+	border: 2px solid #EDC7B7;
+      background-color: #EEE2DC;
 	position:absolute;
-      color: #black;
+      text-color: #black;
       padding: 0px 24px;
       text-decoration: none;
 	text-transform: uppercase;
@@ -59,5 +66,49 @@ body {
 	left:20px;
 	width: 220px;
       margin-bottom: 10px 10px 10px 10px;
+	font-family:Monotype Corsiva;
+	font-color: #123C69;
 }
 
+.text{
+	color: #AC3B61;
+	face: Monotype Corsiva;
+	size: 14pt;
+	line-height: 20px;
+	left: 200px;
+	font-family:Monotype Corsiva;
+}
+
+.talk_con{
+	width:1000px;
+	height:630px;
+	border:1px solid #666;
+	margin:5px auto 0;
+	background:#BAB2B5;
+}
+
+.talk_word{
+	width:800px;
+	height:26px;
+	padding:0px;
+	float:left;
+	margin-left:10px;
+	outline:none;
+	text-indent:10px;
+} 
+
+.talk_sub{
+	width:80px;
+	height:30px;
+	float:right;
+	margin-right:10px;
+}
+
+.talk_show{
+	width:980px;
+	height:570px;
+	border:1px solid #666;
+	background:#fff;
+	margin:10px auto 0;
+	overflow:auto;
+}
