@@ -9,7 +9,6 @@
     <title>Block</title>
 </head>
 
-
 <div id="container">
 	<div id="header">
 	<h2><font color=#123C69 face="fira sans">Было-стало</font></h2>
@@ -24,16 +23,24 @@
 		<li><a class="button" href="autors.html"><font color=#123C69>Чат</font></a></li>
         </ul>
 	</div>
+		 
 
 	<div id="content">
-<img src="6.png" width="350" height="400" align="left">
-    <h1 class="text">
-	<P ALIGN=left><B>Иди к успеху в своем маленьком деле</B></P>
-	<P ALIGN=left><b>Не бывает успехов без неудач</b><BR></P>
-	<P ALIGN=left><b>Делись, не бойся!</b></P>
-	</h1> 
-<img src="5.png" width="350" height="400" align="right">	
-</div>
+<h1 class="text">
+	<P ALIGN=center><B>Анна</B></P>
+		<p><img src="1.jpg" width="250" height="200"><img src="2.jpg" width="250" height="200"></p>
+	<p>Хочу поделиться своими первыми рисунками, как вам? </p>
+	<input type='text' size='155' id='txt1'/>
+	<input type='button' value='Отправить' onClick='transfer()'/>
+	<div id="txt2"></div>
+<script>
+	function transfer(){
+	document.getElementById("txt2").innerHTML=document.getElementById("txt1").value;
+ };
+</script>
+</h1>
+	</div>
+	
 </div>
 </body>
 </html>

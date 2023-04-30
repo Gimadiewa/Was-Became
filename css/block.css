@@ -1,0 +1,115 @@
+body {
+	color: #EDC7B7;
+	font-family: fira sans, sans-serif;
+	font-size: 14px;
+	line-height: 2.5;
+	background-size: cover;
+}
+
+
+
+#header {
+	background: #EDC7B7;
+	width: 20%;
+	height: 50px;
+	top:0px;
+}
+ 
+#container {
+	position: fixed;
+	background: #EDC7B7;
+	text-align: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+ 
+ 
+#sidebar {	
+	position: fixed;
+	background: #EEE2DC;
+	float: left;
+	width: 20%;
+	height: 100%;
+
+}
+
+
+#content {
+
+	background:#EEE2DC;
+	float: left;
+	width: 80%;
+	height: 100%;
+	text-align: left;
+	position:absolute;
+	left:300px;
+	top:0px;
+}
+
+
+
+
+
+
+
+
+.button {
+	border: 2px solid #EDC7B7;
+      background-color: #EEE2DC;
+	position:absolute;
+      padding: 0px 24px;
+      text-decoration: none;
+	text-transform: uppercase;
+      display: inline-block;
+      font-size: 130%;
+	
+	left:20px;
+	width: 220px;
+      margin-bottom: 10px 10px 10px 10px;
+	font-family:fira sans;
+	color: #123C69;
+}
+
+.text{
+	color: #AC3B61;
+	size: 16pt;
+	line-height: 20px;
+	left: 200px;
+	font-family:fira sans;
+}
+
+.talk_con{
+	width:1000px;
+	height:630px;
+	border:1px solid #666;
+	margin:5px auto 0;
+	background:#BAB2B5;
+}
+
+.talk_word{
+	width:800px;
+	height:26px;
+	padding:0px;
+	float:left;
+	margin-left:10px;
+	outline:none;
+	text-indent:10px;
+} 
+
+.talk_sub{
+	width:80px;
+	height:30px;
+	float:right;
+	margin-right:10px;
+}
+
+.talk_show{
+	width:980px;
+	height:570px;
+	border:1px solid #666;
+	background:#fff;
+	margin:10px auto 0;
+	overflow:auto;
+}

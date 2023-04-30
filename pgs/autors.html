@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html>
-<html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="block.css">
     <title>Block</title>
+<link rel="stylesheet" type="text/css" href="block.css">
 </head>
-
 
 <div id="container">
 	<div id="header">
@@ -24,16 +19,20 @@
 		<li><a class="button" href="autors.html"><font color=#123C69>Чат</font></a></li>
         </ul>
 	</div>
+		 
 
 	<div id="content">
-<img src="6.png" width="350" height="400" align="left">
-    <h1 class="text">
-	<P ALIGN=left><B>Иди к успеху в своем маленьком деле</B></P>
-	<P ALIGN=left><b>Не бывает успехов без неудач</b><BR></P>
-	<P ALIGN=left><b>Делись, не бойся!</b></P>
-	</h1> 
-<img src="5.png" width="350" height="400" align="right">	
-</div>
+
+    <div class="talk_con">
+      <div class="talk_show">
+	</div>
+	
+        <div class="talk_input">
+            <input type="text" size="50" class="talk_word" onkeypress="InputPress()">
+            <input type="button" value="Отправить" class="talk_sub">
+        </div>
+    </div>	
+
 </div>
 </body>
 </html>
