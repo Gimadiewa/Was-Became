@@ -66,17 +66,16 @@ body {
 	left:20px;
 	width: 220px;
       margin-bottom: 10px 10px 10px 10px;
-	font-family:Monotype Corsiva;
+	font-family:fira sans;
 	font-color: #123C69;
 }
 
 .text{
 	color: #AC3B61;
-	face: Monotype Corsiva;
 	size: 14pt;
 	line-height: 20px;
 	left: 200px;
-	font-family:Monotype Corsiva;
+	font-family:fira sans;
 }
 
 .talk_con{
