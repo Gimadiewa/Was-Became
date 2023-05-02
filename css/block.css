@@ -79,41 +79,6 @@ body {
 	left: 200px;
 	font-family:fira sans;
 }
-
-.talk_con{
-	width:1000px;
-	height:630px;
-	border:1px solid #666;
-	margin:5px auto 0;
-	background:#BAB2B5;
-}
-
-.talk_word{
-	width:800px;
-	height:26px;
-	padding:0px;
-	float:left;
-	margin-left:10px;
-	outline:none;
-	text-indent:10px;
-} 
-
-.talk_sub{
-	width:80px;
-	height:30px;
-	float:right;
-	margin-right:10px;
-}
-
-.talk_show{
-	width:980px;
-	height:570px;
-	border:1px solid #666;
-	background:#fff;
-	margin:10px auto 0;
-	overflow:auto;
-}
-
 .table_sort table {
     border-collapse: collapse;
 }
