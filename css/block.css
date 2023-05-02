@@ -113,3 +113,61 @@ body {
 	margin:10px auto 0;
 	overflow:auto;
 }
+
+@media screen and (max-width: 1400px) {
+    
+    main {
+        padding: 2vw;
+    }
+}
+@media screen and (max-width: 1360px) {
+    
+    .search {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .search__form {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    
+    .form__block {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 900px){
+    .popup-menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px){
+    .header__nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 670px) {
+    .form__left {
+        margin-bottom: 20px;
+    }
+    .form__left-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form__left-2 {
+        flex-direction: column;
+        align-items: center;    
+    }
+}
+@media screen and (max-width: 450px) {
+    
+    .card__general {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card__general h3 {
+        font-size: 22px;
+    }
+}
