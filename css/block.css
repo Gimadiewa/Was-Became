@@ -178,6 +178,16 @@ th.sorted[data-order="1"]::after {
 	float: left;
 	width: 1%;
 	height: 100%;
+		#content {
+
+	background:#EEE2DC;
+	float: left;
+	width: 99%;
+	height: 100%;
+	text-align: left;
+	position:absolute;
+	left:300px;
+	top:0px;
 	.mobile{
 		width: 250px;
 		height: 100vh;
