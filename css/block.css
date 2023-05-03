@@ -102,7 +102,7 @@ body {
 
 .table_sort tbody tr:nth-child(even) {
     background: 
-#123C69;
+#edc7b7;
 }
 
 th.sorted[data-order="1"],
