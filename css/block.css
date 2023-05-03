@@ -176,7 +176,7 @@ th.sorted[data-order="1"]::after {
 	position: fixed;
 	background: #EEE2DC;
 	float: left;
-	width: 5%;
+	width: 1%;
 	height: 100%;
 	.mobile{
 		width: 250px;
