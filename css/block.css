@@ -172,6 +172,12 @@ th.sorted[data-order="1"]::after {
  display: none;
 }
 @media(max-width: 1020px){
+	#header {
+	background: #EDC7B7;
+	width: 1%;
+	height: 70px;
+	top:0px;
+
 	#sidebar {	
 	position: fixed;
 	background: #EEE2DC;
