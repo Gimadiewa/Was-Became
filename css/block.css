@@ -171,7 +171,7 @@ th.sorted[data-order="1"]::after {
 .mobile span, .hamb{
  display: none;
 }
-@media(max-width: 593px){
+@media(max-width: 1020px){
 	.mobile{
 		width: 250px;
 		height: 100vh;
