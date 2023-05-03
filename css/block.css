@@ -85,9 +85,9 @@ body {
 
 .table_sort th {
     color: 
-#ffebcd;
+#AC3B61;
     background: 
-#008b8b;
+#123C69;
     cursor: pointer;
 }
 
@@ -102,7 +102,7 @@ body {
 
 .table_sort tbody tr:nth-child(even) {
     background: 
-#e3e3e3;
+#123C69;
 }
 
 th.sorted[data-order="1"],
