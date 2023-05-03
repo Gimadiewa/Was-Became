@@ -27,7 +27,24 @@
 	<span class="hamb">☰</span>
 	<span class="overlay"></span>
 	</div>
-
+	<script>
+$(function(){
+  $('.hamb').click(function(){
+    $('.mobile').animate({
+	right: 0
+    });
+$(this).hide();
+ $('.overlay').fadeIn();
+});
+$('.mobile span, .overlay').click(function(){
+  $('.mobile').animate({
+	right: -250
+  });
+$('.hamb').show();
+$('.overlay').fadeOut();
+});
+});
+		</script>
 	<div id="content">
 <img src="./img/6.png" width="350" height="400" align="left">
     <h1 class="text">
