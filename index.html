@@ -6,7 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./css/block.css">
-	<script src="path/to/your/file.js"></script>
     <title>Block</title>
 </head>
 
@@ -17,6 +16,7 @@
 	</div>
 	
 	<div id="sidebar">
+		<div class="topnav" id="myTopnav">
             <ul class="mobile">
             <li><a class="button" href="#"><font color=#123C69>О сайте</font></a></li>
             <li><a class="button" href="./pgs/galery.html"><font color=#123C69>Галерея</font></a></li>
@@ -24,10 +24,22 @@
 		<li><a class="button" href="./pgs/inter.html"><font color=#123C69>Войти</font></a></li>
 		<li><a class="button" href="./pgs/register.html"><font color=#123C69>Регистрация</font></a></li>
 		<li><a class="button" href="./pgs/autors.html"><font color=#123C69>Авторы</font></a></li>
+		      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			      <i class="fa fa-bars"></i>
         </ul>
 	<span class="hamb">☰</span>
 	<span class="overlay"></span>
-
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 	</div>
 
 	<div id="content">
