@@ -171,7 +171,7 @@ th.sorted[data-order="1"]::after {
 .mobile span, .hamb{
  display: none;
 }
-@media(max-width: 1020px){
+@media(max-width: 1024px){
 #header {
 	background: #EDC7B7;
 	width: 100%;
@@ -286,7 +286,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -294,7 +294,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
