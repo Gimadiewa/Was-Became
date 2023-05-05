@@ -161,7 +161,9 @@ th.sorted[data-order="1"]::after {
   color: #324b4e;
 }
 
-
+  img[hidden] {
+    display: block;
+  }
 
 
 
