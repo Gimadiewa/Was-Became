@@ -180,9 +180,6 @@ th.sorted[data-order="1"]::after {
 }
 @media(max-width: 1024px){
 
- body {
-  overflow: scroll !important;
-}
 #container {
 	position: fixed;
 	background: #EDC7B7;
@@ -236,6 +233,8 @@ th.sorted[data-order="1"]::after {
 	 	top:0px;
 	height: 50px;
 	}
+}
+@media(max-width: 568px){
   img[hidden] {
     display: none;
   }
