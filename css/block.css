@@ -228,6 +228,6 @@ th.sorted[data-order="1"]::after {
 	height: 50px;
 	}
   img[hidden] {
-    display: block;
+    display: none;
   }
 }
