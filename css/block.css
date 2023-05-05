@@ -246,3 +246,8 @@ body {
 	height: 50px;
 	}
 }
+@media(max-width: 568px){
+  img[hidden] {
+    display: block;
+  }
+}
