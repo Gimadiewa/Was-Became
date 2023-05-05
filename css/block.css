@@ -1,4 +1,8 @@
 
+    html, body {
+        z-index: 0 !important;
+        overflow: scroll !important;
+	}
 body {
 	color: #ac3b61;
 	font-family: fira sans, sans-serif;
@@ -176,10 +180,6 @@ th.sorted[data-order="1"]::after {
   display: none;
 }
 @media(max-width: 1024px){  
-    html, body {
-        z-index: 0 !important;
-        overflow: scroll !important;
-	}
 body {
 	color: #ac3b61;
 	font-family: fira sans, sans-serif;
