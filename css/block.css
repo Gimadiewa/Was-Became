@@ -1,6 +1,7 @@
 html,
 body {    
     overflow:visible;
+	-webkit-overflow-scrolling: touch;
 }
 body {
 	color: #ac3b61;
@@ -182,6 +183,7 @@ th.sorted[data-order="1"]::after {
 	html,
 body {    
     overflow:visible;
+	-webkit-overflow-scrolling: touch;
 }
 body {
 	color: #ac3b61;
