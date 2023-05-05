@@ -186,7 +186,7 @@ th.sorted[data-order="1"]::after {
  
 #header {
 	background: #EDC7B7;
-	width: 50%;
+	width: 40%;
 	height: 50px;
 	top:0px;
 	left: 0px;
@@ -196,9 +196,10 @@ th.sorted[data-order="1"]::after {
 	position: fixed;
 	background: #EEE2DC;
 	float: left;
-	width: 50%;
+	width: 60%;
 	height: 50px;
 	right: 0px;
+	top: 0px;
 
 }
 
