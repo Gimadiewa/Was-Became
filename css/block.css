@@ -220,4 +220,6 @@ th.sorted[data-order="1"]::after {
 			
  .mobile{
     display: block;
+	position:absolute;
+	 	top:0px;
 	}
