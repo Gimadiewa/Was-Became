@@ -234,7 +234,7 @@ body {
     display: block;
 	}
 .hrec{
-	position:absolute;
+	position:flex;
 	 	top:0px;
 	height: 50px;
 	}
