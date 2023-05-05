@@ -179,6 +179,18 @@ th.sorted[data-order="1"]::after {
   display: none;
 }
 @media(max-width: 1024px){
+	html,
+body {    
+    overflow:visible;
+}
+body {
+	color: #ac3b61;
+	font-family: fira sans, sans-serif;
+	font-size: 14px;
+	line-height: 2.5;
+	background-size: cover;
+	    overflow: a;
+}
 
 #container {
 	position: fixed;
@@ -233,9 +245,4 @@ th.sorted[data-order="1"]::after {
 	 	top:0px;
 	height: 50px;
 	}
-}
-@media(max-width: 568px){
-  img[hidden] {
-    display: none;
-  }
 }
