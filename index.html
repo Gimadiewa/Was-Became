@@ -51,17 +51,39 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script>
+var button = document.getElementsByClassName('toggle-btn');
+var nav = document.getElementsByTagName('nav');
+
+var show = function (elem) {
+	elem.style.display = 'block';
+};
+var hide = function (elem) {
+	elem.style.display = 'none';
+};
+var toggle = function (elem) {
+
+	if (window.getComputedStyle(elem).display === 'block') {
+		hide(elem);
+		return;
+	}
+
+	show(elem);
   
-<script>
-$(function(){
-  var button = $('button'); // Создаем переменную button и присваеваем ей тэг button
-  var nav = $('nav'); // Создаем переменную nav и присваеваем ей тэг nav
-  
-  button.on('click', function(){ // При клике на кнпоку
-  	nav.toggle(); // Показываем/скрываем меню
-  });
-});
-</script>
+};
+
+for(var i = 0; i < button.length; i++) {
+  (function(index) {
+    button[index].addEventListener('click', function() {
+    
+    for (var i = 0; i < nav.length; i++) {
+      toggle(nav[i]);
+		}	
+     
+     })
+  })(i);
+}
+	</script>
 
 </body>
 </html>
