@@ -4,6 +4,7 @@ body {
 	font-size: 14px;
 	line-height: 2.5;
 	background-size: cover;
+  overflow: scroll !important;
 }
 
 
@@ -173,7 +174,9 @@ th.sorted[data-order="1"]::after {
 }
 @media(max-width: 1024px){
 
- 
+ body {
+  overflow: scroll !important;
+}
 #container {
 	position: fixed;
 	background: #EDC7B7;
