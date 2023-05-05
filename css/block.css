@@ -225,6 +225,7 @@ th.sorted[data-order="1"]::after {
 .hrec{
 	position:absolute;
 	 	top:0px;
+	height: 50px;
 	}
   img[hidden] {
     display: block;
