@@ -214,6 +214,9 @@ th.sorted[data-order="1"]::after {
 	left:0px;
 	top:100px;
 }
+	.topnav{
+		display: none;
+	}
 			
  .mobile{
     display: block;
