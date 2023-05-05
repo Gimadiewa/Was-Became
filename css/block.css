@@ -225,3 +225,7 @@ th.sorted[data-order="1"]::after {
 	position:absolute;
 	 	top:0px;
 	}
+  img[hidden] {
+    display: block;
+  }
+}
