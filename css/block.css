@@ -112,7 +112,7 @@ th.sorted[data-order="1"]::after {
 .form1 form {
   width: auto;
   float: right;
-  margin-left: 30px;
+  margin-right: 30px;
 }
 .form1 input {
   width: 250px;
