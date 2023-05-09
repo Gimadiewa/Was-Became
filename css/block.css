@@ -135,7 +135,7 @@ th.sorted[data-order="1"]::after {
   border: none;
   position: absolute;
   top: -2px;
-  right: 0;
+  left: 0;
 }
 .form1 button:before{
   content: "\f002";
