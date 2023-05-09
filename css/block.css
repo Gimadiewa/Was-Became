@@ -6,7 +6,6 @@ body {
 	background-size: cover;
 	overflow: a;
 }
-.index{
 #header {
 	background: #EDC7B7;
 	width: 20%;
@@ -39,7 +38,6 @@ body {
 	position:absolute;
 	left:300px;
 	top:0px;
-}
 }
 .button {
 	border: 2px solid #EDC7B7;
