@@ -146,7 +146,22 @@ th.sorted[data-order="1"]::after {
   img[hidden] {
     display: block;
   }
-
+.buttong {
+	border: 2px solid #EDC7B7;
+      background-color: #EEE2DC;
+	position:absolute;
+      padding: 0px 24px;
+      text-decoration: none;
+	text-transform: uppercase;
+      display: inline-block;
+      font-size: 130%;
+	
+	left:16px;
+	width: 220px;
+      margin-bottom: 10px 10px 10px 10px;
+	font-family:fira sans;
+	color: #123C69;
+}
 
 
 
