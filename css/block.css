@@ -154,11 +154,10 @@ th.sorted[data-order="1"]::after {
       text-decoration: none;
 	text-transform: uppercase;
       display: inline-block;
-      font-size: 130%;
+      font-size: 4pt;
 	
 	left:16px;
 	width: 220px;
-      margin-bottom: 10px 10px 10px 10px;
 	font-family:fira sans;
 	color: #123C69;
 }
