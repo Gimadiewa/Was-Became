@@ -108,6 +108,12 @@ th.sorted[data-order="1"]::after {
 }
 
 
+#header1 {
+	background: #EDC7B7;
+	width: 100%;
+	height: 50px;
+	top:0px;
+
 form1{
 	display: inline-block;
 	loat: left;
