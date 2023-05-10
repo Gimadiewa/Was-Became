@@ -159,18 +159,13 @@ form1{
     display: block;
   }
 buttong {
-	border: 2px solid #EDC7B7;
-      background-color: #EEE2DC;
-      padding: 0px 24px;
-      text-decoration: none;
-	text-transform: uppercase;
-     float: left;
-      font-size: 100%;
-	
-	width: 220px;
-      margin-bottom: 10px 10px 10px 10px;
-	font-family:fira sans;
-	color: #123C69;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 0 20px;
 }
 
 
