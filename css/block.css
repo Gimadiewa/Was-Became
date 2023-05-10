@@ -113,6 +113,17 @@ th.sorted[data-order="1"]::after {
 	width: 100%;
 	height: 50px;
 	top:0px;
+}
+#content {
+	background:#EEE2DC;
+	float: left;
+	width: 80%;
+	height: 95%;
+	text-align: left;
+	position:absolute;
+	left:300px;
+	top:0px;
+}
 
 form1{
 	display: inline-block;
