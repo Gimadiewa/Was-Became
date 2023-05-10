@@ -108,7 +108,11 @@ th.sorted[data-order="1"]::after {
 }
 
 
-
+form1{
+	display: inline-block;
+	loat: left;
+	
+}
 .form1 form {
   position: relative;
   width: 300px;
