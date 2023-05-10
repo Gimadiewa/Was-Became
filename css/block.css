@@ -47,7 +47,7 @@ body {
       text-decoration: none;
 	text-transform: uppercase;
       display: inline-block;
-      font-size: 130%;
+      font-size: 18px;
 	
 	left:16px;
 	width: 220px;
@@ -107,9 +107,33 @@ th.sorted[data-order="1"]::after {
     content: "▲"
 }
 
-form1{
-	display: inline-block;
-	loat: left;
+
+#header1 {
+	background: #EDC7B7;
+	width: 100%;
+	height: 50px;
+	top:0px;
+text-align: left;
+}
+#content1 {
+	background:#EEE2DC;
+	float: left;
+	width: 80%;
+	height: 95%;
+	text-align: left;
+	position:absolute;
+	left:300px;
+	buttom:0px;
+}
+
+.form1{
+	display: inline;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 0 20px;
 	
 }
 .form1 form {
@@ -168,7 +192,8 @@ form1{
       font-size: 18px;
 	
 	left:0px;
-	width: 220px;
+	width: 200px;
+	height:50px;
       margin-bottom: 10px 10px 10px 10px;
 	font-family:fira sans;
 	color: #123C69;
@@ -183,8 +208,9 @@ form1{
       display: inline-block;
       font-size: 18px;
 	
-	left:220px;
-	width: 220px;
+	left:200px;
+	width: 200px;
+	height:50px;
       margin-bottom: 10px 10px 10px 10px;
 	font-family:fira sans;
 	color: #123C69;
@@ -199,8 +225,9 @@ form1{
       display: inline-block;
       font-size: 18px;
 	
-	left:440px;
-	width: 220px;
+	left:400px;
+	width: 200px;
+	height:50px;
       margin-bottom: 10px 10px 10px 10px;
 	font-family:fira sans;
 	color: #123C69;
@@ -215,8 +242,9 @@ form1{
       display: inline-block;
       font-size: 18px;
 	
-	left:660px;
-	width: 220px;
+	left:600px;
+	width: 200px;
+	height:50px;
       margin-bottom: 10px 10px 10px 10px;
 	font-family:fira sans;
 	color: #123C69;
@@ -231,14 +259,13 @@ form1{
       display: inline-block;
       font-size: 18px;
 	
-	left:880px;
-	width: 220px;
+	left:800px;
+	width: 200px;
+	height:50px;
       margin-bottom: 10px 10px 10px 10px;
 	font-family:fira sans;
 	color: #123C69;
 }
-
-
 
 
 
