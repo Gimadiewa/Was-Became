@@ -154,14 +154,14 @@ th.sorted[data-order="1"]::after {
   img[hidden] {
     display: block;
   }
-.buttong {
+.form1 button {
 	border: 2px solid #EDC7B7;
       background-color: #EEE2DC;
 	position:absolute;
       padding: 0px 24px;
       text-decoration: none;
 	text-transform: uppercase;
-      display: inline-block;
+     float: left;
       font-size: 130%;
 	
 	width: 220px;
