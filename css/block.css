@@ -108,6 +108,16 @@ th.sorted[data-order="1"]::after {
 }
 
 
+
+
+#sidebar1 {	
+	position: fixed;
+	background: #EEE2DC;
+	float: left;
+	width: 5%;
+	height: 100%;
+}
+
 #header1 {
 	background: #EDC7B7;
 	width: 100%;
@@ -118,8 +128,8 @@ text-align: left;
 #content1 {
 	background:#EEE2DC;
 	float: left;
-	width: 80%;
-	height: 95%;
+	width: 95%;
+	height: 100%;
 	text-align: left;
 	position:absolute;
 	left:300px;
