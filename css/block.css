@@ -148,7 +148,7 @@ text-align: left;
 }
 .form1 form {
   position: relative;
-  width: 300px;
+  width: 200px;
   margin: 0 auto;
   height: 42px;
 }
@@ -167,7 +167,7 @@ text-align: left;
   z-index: 2;
 }
 .form1 input:focus {
-  width: 300px;
+  width: 200px;
   z-index: 1;
   border-bottom: 2px solid #F9F0DA;
 }
