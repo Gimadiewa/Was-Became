@@ -274,19 +274,20 @@ text-align: left;
 }
 .btn6 {
 	border: 2px solid #EDC7B7;
-	background-color: #EEE2DC;
+      background-color: #EEE2DC;
 	position:absolute;
-	padding: 0px 24px;
-	text-decoration: none;
+      padding: 0px 24px;
+      text-decoration: none;
 	text-transform: uppercase;
-	display: inline-block;
-	font-size: 18px;
+      display: inline-block;
+      font-size: 18px;
 	bottom: 100px;
 	left:10%;
 	width: 1000px;
 	height:50px;
 	font-family:fira sans;
 	color: #123C69;
+	text-align: center;
 }
 .button1 {
 	border: 2px solid #EDC7B7;
