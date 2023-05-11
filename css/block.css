@@ -274,13 +274,13 @@ text-align: left;
 }
 .btn6 {
 	border: 2px solid #EDC7B7;
-      background-color: #EEE2DC;
+	background-color: #EEE2DC;
 	position:absolute;
-      padding: 0px 24px;
-      text-decoration: none;
+	padding: 0px 24px;
+	text-decoration: none;
 	text-transform: uppercase;
-      display: inline-block;
-      font-size: 18px;
+	display: inline-block;
+	font-size: 18px;
 	bottom: 5px;
 	left:20%;
 	width: 1000px;
