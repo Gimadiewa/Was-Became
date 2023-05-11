@@ -276,7 +276,22 @@ text-align: left;
 	font-family:fira sans;
 	color: #123C69;
 }
-
+.button1 {
+	border: 2px solid #EDC7B7;
+      background-color: #EEE2DC;
+	position:absolute;
+      padding: 0px 24px;
+      text-decoration: none;
+	text-transform: uppercase;
+      display: inline-block;
+      font-size: 18px;
+	
+	left:16px;
+	width: 50px;
+      margin-bottom: 10px 10px 10px 10px;
+	font-family:fira sans;
+	color: #123C69;
+}
 
 
 
