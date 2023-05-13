@@ -364,6 +364,11 @@ text-align: left;
 @media(max-width: 1024px){
 .border{
   display: block;
+	border: 1px solid;
+	padding: 200px; 
+	height: 50px; 
+	overflow: scroll; 
+	width: 70%;
 }
 body {
 	color: #ac3b61;
