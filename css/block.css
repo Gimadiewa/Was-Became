@@ -36,7 +36,7 @@ body {
 	height: 100%;
 	text-align: left;
 	position:absolute;
-	left:20%;
+	left:300px;
 	top:0px;
 }
 .button {
@@ -62,7 +62,50 @@ body {
 	left: 200px;
 	font-family:fira sans;
 }
+.table_sort table {
+    border-collapse: collapse;
+}
 
+.table_sort th {
+    color: 
+#ffebcd;
+    background: 
+#123c69;
+    cursor: pointer;
+}
+
+.table_sort td,
+.table_sort th {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid 
+#846868;
+}
+
+.table_sort tbody tr:nth-child(even) {
+    background: 
+#e3e3e3;
+}
+
+th.sorted[data-order="1"],
+th.sorted[data-order="-1"] {
+    position: relative;
+}
+
+th.sorted[data-order="1"]::after,
+th.sorted[data-order="-1"]::after {
+    right: 8px;
+    position: absolute;
+}
+
+th.sorted[data-order="-1"]::after {
+    content: "▼"
+}
+
+th.sorted[data-order="1"]::after {
+    content: "▲"
+}
 
 
 
@@ -101,11 +144,11 @@ text-align: left;
     justify-content: center;
     width: 200px;
     padding: 0 20px;
-	
+* {box-sizing: border-box;}	
 }
 .form1 form {
   position: relative;
-  width: 200px;
+  width: 300px;
   margin: 0 auto;
   height: 42px;
 }
@@ -124,7 +167,7 @@ text-align: left;
   z-index: 2;
 }
 .form1 input:focus {
-  width: 200px;
+  width: 300px;
   z-index: 1;
   border-bottom: 2px solid #F9F0DA;
 }
@@ -262,6 +305,7 @@ text-align: left;
 	font-family:fira sans;
 	color: #123C69;
 }
+
 .js-bookmark {
     text-decoration: none;
 }
@@ -317,6 +361,40 @@ text-align: left;
     transition: all 0.1s ease;
 }
 
+
+
+
+.fifa form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+.fifa input {
+  width: 200px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.fifa input:focus {
+  width: 1000px;
+}
+.fifa buttonz {
+  width: 42px;
+  height: 42px;
+  background: #EDC7B7;
+  border: none;
+  position: fixed;
+}
+.fifa button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
 
 
 
