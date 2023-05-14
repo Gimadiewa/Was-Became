@@ -32,24 +32,80 @@
 		<a  href="inter.html"><img src="../img/44.png" width="30" height="30"></a>
 		<a href="register.html"><img src="../img/555.png" width="30" height="30"></a>
 		<a href="autors.html"><img src="../img/666.png" width="30" height="30"></a>
-  </li>
-			
+  </li>			
 </div>
 	</div>
-		 
-
 	<div id="content">
-<img hidden src="../img/6.png" width="350" height="400" align="left">
-	<h1 class="text">
-	<font face="fira sans">Напишите свое имя</font> <br/>
-        <input type='text' size='25' name="name"/><br/><br/>
-	<font face="fira sans">Выберите рисунок</font> <br/>
-	<input type="file" id="myFile" name="page"/> <br /><br/>
-	<font face="fira sans">Добавьте описание к рисунку</font> <br/>
-	<input type='text' size='25' name="comm" /><br/><br/>
-	<input type="submit" value="Отправить" /></p>
-</h1>
-<img hidden src="../img/5.png" width="350" height="400" align="right">
+<h1 align="center" size="25">Загрузить фото в галерею</h1>
+<h2 align="center" size="18"><i>Здесь вы  можете загрузить свои фотографии и создать свой коллаж  для нашей галереи</i></h2>
+
+	<input type='text' placeholder="Комментарий к коллажу"  class="btn8" size='155' id='txt1'/>
+<input type='button' value='Отправить' slyle="btn7" onClick='transfer()'/>
+	<div id="txt2"></div>
+<script>
+	function transfer(){
+	document.getElementById("txt2").innerHTML=document.getElementById("txt1").value;
+ };
+</script>
+			<form method="post" enctype="multipart/form-data">
+			<label class="input-file1">
+	  		 	<input type="file" name="file">		
+	   			<span class="bz2">Загрузить фото№2 (Фото "после")</span>
+ 			</label>
+		</form>
+
+		<form method="post" enctype="multipart/form-data">
+			<label class="input-file1">
+	   			<input type="file" name="file">		
+	   			<span class="bz1">Загрузить фото№1 (Фото "до")</span>
+ 			</label>
+</form>
+<a class="btn7" href="person.html"><font color=#123C69>Перейти в личный кабинет</font></a>
+</br></br>
+  <select class="bz1" name="region" id="region-select">
+    <option value="">Выберите регион</option>
+    <option value="sverd">Свердловская область</option>
+    <option value="kurgan">Курганская область</option>
+    <option value="chel">Челябинская область</option>
+    <option value="krasna">Красноярский край</option>
+  </select>
+</br></br>
+  <select class="bz1" name="city" id="city-select">
+    <option value="">Выберите город</option>
+    <option value="ekat">Екатеринбург</option>
+    <option value="tagil">Нижний Тагил</option>
+    <option value="kamur">Каменск-Уральск</option>
+    <option value="revda">Ревда</option>
+  </select>
+</br></br>
+  <select class="bz1" name="raion" id="raion-select">
+    <option value="">Выберите район</option>
+    <option value="sverd">Южный</option>
+    <option value="kurgan">Северный</option>
+    <option value="chel">Восточный</option>
+    <option value="krasna">Западный</option>
+  </select>
+</br></br>
+  <select class="bz1" name="street" id="street-select">
+    <option value="">Выберите улицу</option>
+    <option value="sverd">ул. Гоголя</option>
+    <option value="kurgan">ул. Пушкина</option>
+    <option value="chel">ул. Дементьева</option>
+    <option value="krasna">ул. Луначарского</option>
+  </select>
+<selecl class="bz1">
+<label for="start">Когда было сделано фото</label>
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="1700-01-01" max="2023-12-31">
+<selecl>
+<selecl class="bz2">
+<label for="start">Когда было сделано фото</label>
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="1700-01-01" max="2023-12-31">
+<selecl>
+
 </div>
 </body>
 </html>
