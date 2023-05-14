@@ -446,11 +446,7 @@ top: 310px;
 	width: 0;
 	height: 0;
 }
- 
-/* Focus */
-.input-file input[type=file]:focus + span {
-	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-}
+
 .input-file:active span {
 	background-color: #2E703A;
 }
