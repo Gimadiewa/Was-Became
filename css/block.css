@@ -451,11 +451,6 @@ top: 310px;
 .input-file input[type=file]:focus + span {
 	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
- 
-/* Hover/active */
-.input-file:hover span {
-	background-color: #59be6e;
-}
 .input-file:active span {
 	background-color: #2E703A;
 }
