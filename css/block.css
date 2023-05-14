@@ -128,7 +128,23 @@ text-align: center;
 	font-family:fira sans;
 	color: #123C69;
 }
-.bun {
+.bun1 {
+	border: 2px solid #EDC7B7;
+      background-color: #EEE2DC;
+	position:absolute;
+      padding: 0px 24px;
+      text-decoration: none;
+	text-transform: uppercase;
+      display: inline-block;
+      font-size: 18px;
+	
+	left:450px;
+	width: 220px;
+      margin-bottom: 10px 10px 10px 10px;
+	font-family:fira sans;
+	color: #123C69;
+}
+.bun2 {
 	border: 2px solid #EDC7B7;
       background-color: #EEE2DC;
 	position:absolute;
@@ -334,7 +350,7 @@ text-align: center;
 }
 .imgp1{
 position : absolute;
-left: 10px;
+align:center;
 top: 5px;
 }
 .tz{
